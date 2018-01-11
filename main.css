@@ -1,0 +1,151 @@
+html {
+    background-color: #fed70c;
+    -webkit-font-smoothing: antialiased;
+}
+
+@font-face {
+    font-family: 'Nexa Black';
+    src: url(nexa-black.otf);
+}
+
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+
+/* The navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: black;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    height: 35px;
+    margin-left: -10px;
+    z-index: 1;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 10px;
+
+}
+
+.navbar a {
+    
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+  
+
+    
+}
+
+.navbar a:hover {
+    color:red;
+    cursor: pointer;
+}
+
+#l {
+    float: left;
+    display: block;
+    margin-left: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-weight: 70%;
+    letter-spacing: -1;
+
+    
+}
+
+#r {
+    float: right;
+    display: block;
+    margin-right: 20px;
+    font-weight: 600;
+    
+}
+
+#m {
+    font-weight: 800;
+    letter-spacing: 2;
+    font-size: 80%;
+    height: 35px;
+
+    
+}
+
+body {
+    
+}
+
+response-header {
+    font-size: 10vw;
+}
+
+
+h1a {
+    white-space: pre-line;
+    color: white;
+    font-family: serif;
+    font-style:italic;
+    font-size: 180px;
+    font-size: 15.5vw;
+    line-height: 80%;
+    margin-top: 120px;
+    grid-column: 2/7;
+    
+    
+}
+
+h1b {
+    white-space: pre-line;
+    color: white;
+    font-family: "Nexa Black";
+    font-weight:normal;
+    font-style:normal;
+    font-size: 180px;
+    font-size: 15.0vw;
+    line-height: 80%;
+    margin-bottom: 120px;
+    grid-column: 2/7;
+    width: 100%;
+    height:auto;
+    
+}
+
+h1b::first-line {
+    color:black;
+        
+    }
+.end-q-red {
+    font-familY: 'Nexa Black'; 
+    font-size: 60px; 
+    line-height: 0; 
+    vertical-align: middle; 
+    color: red; 
+    position: relative; 
+    top: 12px;
+    
+}
+
+.uni-drop {
+     font-familY: 'Nexa Black'; 
+    font-size: 60px; 
+    line-height: 0; 
+    vertical-align: middle; 
+    color: red; 
+    position: relative; 
+    top: 12px;
+    left: -90px;
+    letter-spacing: -100px;
+}
+
+.end-q-black {
+    font-familY: 'Nexa Black'; 
+    font-size: 60px; 
+    line-height: 0; 
+    vertical-align: middle; 
+    color: black; 
+    position: relative; 
+    top: 12px;
+}
