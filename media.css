@@ -90,7 +90,13 @@
 
 
 @media only screen and (max-width: 800px) {
-         .bline {
+        .wrapper {
+    grid-template-columns: 20px 1fr 1fr 1fr 1fr 1fr 20px; 
+    -ms-grid-template-columns: 20px 1fr 1fr 1fr 1fr 1fr 20px; 
+}
+    
+    
+    .bline {
              grid-column: 2 / 7;
              margin-bottom: 20%;
          }
@@ -132,7 +138,7 @@
          }
          
         .left {
-            grid-column: 1 / 6;
+            grid-column: 1 / 7;
             border-right: none;
             margin-top: 5px;
             padding-top: 10px;
@@ -167,4 +173,4 @@
 }
 
     
-   
+ 
