@@ -1,12 +1,7 @@
 
 
-article {
-    display: grid;
-    display: -ms-grid;
-    grid-template-columns: 1fr 15% 15% 15% 15% 15% 1fr; 
-    -ms-grid-template-columns: 1fr 15% 15% 15% 15% 15% 1fr;
-    
-}
+
+
 
 ::selection {
   background: orange;
