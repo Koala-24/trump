@@ -18,7 +18,7 @@ html {
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
     height: 35px;
-    margin-left: -10px;
+    margin-left: -8px;
     z-index: 1;
     font-family: 'Open Sans', sans-serif;
     text-align: center;
@@ -74,7 +74,6 @@ html {
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
     padding-top: 4px;
-    width: 200px;
     vertical-align: middle;
     display: inline-block;
     margin-left:-2px;
@@ -99,8 +98,10 @@ h1a {
     font-size: 180px;
     font-size: 15.5vw;
     line-height: 80%;
-    margin-top: 30%;
+    margin-top: 25vh;
     grid-column: 2/7;
+    width: 100%;
+    height:auto;
     
     
 }
