@@ -1,257 +1,160 @@
-article{
+html {
+    background-color: #fed70c;
+    -webkit-font-smoothing: antialiased;
+}
+
+@font-face {
+    font-family: 'Nexa Black';
+    src: url(nexa-black.otf);
+}
+
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+
+/* The navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: black;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    height: 35px;
+    margin-left: -8px;
+    z-index: 1;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 10px;
+
+}
+
+.navbar a {
+    
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+  
+
     
 }
 
-::selection {
-  background: orange;
+.navbar a:hover {
+    color:red;
+    cursor: pointer;
 }
 
-article > sidebar-l {
-    margin-bottom: 50px;
-    margin-right: 20px;
-    border-right: 10px solid white;
-    padding-top: 50%;
-    position: relative;
-    margin-top: -50%;
-}
-
-
-article > quote-l {
-    width: 100%;
-    margin-bottom: 20px;
-    margin-top: -150px;
-    border-bottom: 10px solid white;
-    padding-right: 20px;
-    padding-left: 200px;
-    padding-bottom: 20px;
-    grid-column: 1 / 3;
-    -ms-grid-column: 1/3;
-    font-family: "Nexa Black";    
-}
-
-.drop {
-  color: red;
-  float: left;
-  font-family: inherit;
-  font-size: 78px;
-  line-height: 50px;
-  padding-top: 8px;
-  padding-right: 4px;
-  padding-left: 0px;
-}
-
-
-article > sidebar-r {
-    width: 330px;
-    margin-bottom: 0px;
-    margin-top: 300px;
-    border-left: 10px solid white;
-    font-family: "Nexa Black";
-    font-size: 40px;
-    line-height: 90%;
-    font-size: 3vw;
-    width: 100%;
-   
-}
-
-credit2 {
-    line-height: 1.5;
-    font-family: 'Slabo 27px', serif;
+#l {
+    float: left;
+    display: block;
+    margin-left: 20px;
+    font-family: 'Open Sans', sans-serif;
     font-weight: bold;
-    font-style: italic;
-    font-size: 12px;
- 
-    color: black;
-    margin-top: -34px;
-    border: solid 1px red;
-
-}
-
-article > h2 {
-    grid-column: 2 / 6;
-    -ms-grid-column: 2;
-    -ms-grid-column-span: 4;
-    color: black;
-    font-family: "Nexa Black";
-    font-size: 40px;
-    line-height: 115%;
-    margin-bottom: 10px;
-}
-
-article > h3 {
-    font-family: "Nexa Black"; sans-serif;
-   
-}
-
-
-h4 {
-    color: red;
-    font-family: "Nexa Black";
-    font-size: 40px;
-    margin-bottom: 10px;
-    line-height: 1;
-}
-
-article > byline {
-    grid-column: 2 / 5;
-    -ms-grid-column: 2;
-    -ms-grid-column-span: 3;
-    margin: 10px 0;
-    font-family: 'Slabo 27px', serif;
-    font-style: italic;
-    font-size: 14px;
-    margin-bottom: 20%;
-    color:black;
-
-
-}
+    font-weight: 70%;
+    letter-spacing: -1;
 
     
-article > p2{
-    grid-column: 3 / 6;
-    -ms-grid-column: 3;
-    -ms-grid-column-span: 3;
-    margin-top: 100px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
 }
 
-article > p3{
-    grid-column: 5 / 7;
-    -ms-grid-column: 5;
-    -ms-grid-column-span: 2;
-    margin-top: 100px;
-    font-family: 'Open Sans', sans-serif;
-    padding-left: 50px;
-    margin-left: 40px;
-    border-left: 10px solid white;
-    padding-left: 30px;
-    position: relative;
+#r {
     float: right;
     display: block;
-        
+    margin-right: 20px;
+    font-weight: 600;
+    
 }
 
-article > p4{
-    grid-column: 2 / 5;
-    -ms-grid-column: 2;
-    -ms-grid-column-span: 3;
+#m {
+    font-weight: 800;
+    letter-spacing: 2;
+    font-size: 80%;
+    height: 35px;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
     font-family: 'Open Sans', sans-serif;
-    line-height: 140%;
-    margin-bottom: 200px;
+    padding-top: 4px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-left:-2px;
 
+
+}
+
+body {
     
 }
 
-
-
-article > intro { 
-    grid-column: 4 / 7;
-    -ms-grid-column: 4;
-    -ms-grid-column-span: 3;
-     margin: 10px 0;
-    font-family: "Nexa Black";
-    font-style: normal;
-    font-size: 25px;
-    margin-bottom: 60px;
-    line-height: 140%;
-    padding-left: 50px;
-    
-}
-
-.border-left {
-    border-left: 10px solid white;
-}
-
-intro::first-letter {
-  color: red;
-  float: left;
-  font-family: inherit;
-  font-size: 78px;
-  line-height: 50px;
-  padding-top: 8px;
-  padding-right: 4px;
-  padding-left: 0px;
+response-header {
+    font-size: 10vw;
 }
 
 
- article > p1 {
-    grid-column: 4 / 7;
-    -ms-grid-column: 4;
-    -ms-grid-column-span: 3;
-     font-family: 'Open Sans', sans-serif;
-     line-height: 130%;
-     padding-left: 50px;
-}
-
-h3 {
-    font-family: "Nexa Black";
-    line-height: 120%;
-    font-size: 18px;
-}
-
-credit {
-    line-height: 1;
-    font-family: 'Slabo 27px', serif;
-    font-weight: bold;
-    font-style: italic;
-    font-size: 12px;
-    color: black;
-}
-
-ul {
-  list-style-type: none;
-    margin-bottom: 20px;
-    margin-top: 40px;
-    padding: 0;
-    font-family: "Nexa Black";    
-}
-
-li {
-    margin-bottom: 40px;
-    
-}
-
-.large {
-    color: red;
-    font-size: 60px;
-    line-height: 0.8;
-}
-
-.large-white {
+h1a {
+    white-space: pre-line;
     color: white;
-    font-size: 140px;
-    font-family: 'Stardos Stencil', cursive;
-    line-height: 01%;
-    position: relative; 
-    top: 16px;
-    font-style: italic;
-    z-index: -1;
-}
-
-article > img {
-    
-grid-column: 1 / 5;
--ms-grid-column: 1;
-    -ms-grid-column-span: 4;
-    margin-top: 100px;
- margin-left: -10;
+    font-family: serif;
+    font-style:italic;
+    font-size: 180px;
+    font-size: 15.5vw;
+    line-height: 80%;
+    margin-top: 25vh;
+    grid-column: 2/7;
     width: 100%;
-    height: auto;
-
-}
-
-right-red {
-    color: red;
-    grid-column: 5 / 7;
-    -ms-grid-column: 5;
-    -ms-grid-column-span: 2;
-
-    margin-left: 80px;
-    margin-top: 100px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
-    font-size: 21px;
+    height:auto;
+    
     
 }
 
+h1b {
+    white-space: pre-line;
+    color: white;
+    font-family: "Nexa Black";
+    font-weight:normal;
+    font-style:normal;
+    font-size: 180px;
+    font-size: 15.0vw;
+    line-height: 80%;
+    margin-bottom: 10%;
+    grid-column: 2/7;
+    width: 100%;
+    height:auto;
+    
+}
+
+h1b::first-line {
+    color:black;
+        
+    }
+.end-q-red {
+    font-familY: 'Nexa Black'; 
+    font-size: 60px; 
+    line-height: 0; 
+    vertical-align: middle; 
+    color: red; 
+    position: relative; 
+    top: 12px;
+    
+}
+
+.uni-drop {
+     font-familY: 'Nexa Black'; 
+    font-size: 60px; 
+    line-height: 0; 
+    vertical-align: middle; 
+    color: red; 
+    position: relative; 
+    top: 12px;
+    left: -90px;
+    letter-spacing: -100px;
+}
+
+.end-q-black {
+    font-familY: 'Nexa Black'; 
+    font-size: 60px; 
+    line-height: 0; 
+    vertical-align: middle; 
+    color: black; 
+    position: relative; 
+    top: 12px;
+}
